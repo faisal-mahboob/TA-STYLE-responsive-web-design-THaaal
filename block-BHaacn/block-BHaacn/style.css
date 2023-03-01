@@ -149,13 +149,25 @@ html {
     color: white;
 }
 
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8rem;
+    height: 6rem;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    width:100%;
 }
-
+.background{
+    height:6rem;
+    position:fixed;
+    top:0;
+    width:100%;
+    background:linear-gradient(rgba(0,0,0, 0.4),rgba(30, 83, 143, 0.4));
+}
 #toggle{
     display:none;
 }
@@ -244,7 +256,8 @@ ul {
 .section1 {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 0rem;
+    margin-top:4rem;
+    padding-top:3rem;
 }
 
 .col-1 {
@@ -279,8 +292,7 @@ ul {
 }
 
 .section2 {
-    margin-top: 15rem;
-
+    margin-top: 19rem;
 }
 
 .col-3 {
@@ -326,7 +338,7 @@ ul {
 
 .box-cover {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     padding: 2rem 0;
 }
@@ -674,16 +686,48 @@ i {
         align-items:center;
     }
 
-    .box-cover{
-        flex-wrap:wrap;
-        justify-content:flex-start
+    .col-5{
+        max-width:100%
     }
 
+    .box-cover{
+        flex-wrap:wrap;
+        justify-content:center;
+
+    }
+    .button-place{
+        max-width:100rem;
+        display:flex;
+        height:3rem;
+        justify-content:center;
+    }
+
+    .button-3 {
+        width: 13rem;
+        height: 3rem;
+        background: rgb(249, 35, 77);
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        border: none;
+        border-radius: 0.25rem;
+        position:unset;
+    }
+
+    .number-1{
+        display:none;
+    }
     .extra-2{
-        left:260;
+        left:200;
     }
     .extra-3{
-        left:510;
+        left:410;
+    }
+    .paragraph3{
+        font-size:1rem;
+    }
+
+    .button-2{
+        margin-top:2rem;
     }
 
     .button-3{
@@ -739,6 +783,15 @@ i {
     }
     
     part-1{
-        display:inline-block;
+        
+
+    }
+
+    .schedule {
+        width: 12rem;
+        height: 10rem;
+    }
+    .part-1-1 {
+        width: 50%;
     }
 }
